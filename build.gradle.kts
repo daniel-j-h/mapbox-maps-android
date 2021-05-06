@@ -6,7 +6,7 @@ buildscript {
       url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
       credentials {
         username = "mapbox"
-        password = System.getenv("SDK_REGISTRY_TOKEN") ?: project.property("SDK_REGISTRY_TOKEN") as String
+        password = "sk.eyJ1IjoidG9icnVuIiwiYSI6ImNrbnNuNXB0YzA1eTUyeHBkYzRyN2V0ZGkifQ.xTXN75Mi3OiUtiiWV7Rk1w"
       }
       authentication {
         create<BasicAuthentication>("basic")
@@ -35,7 +35,7 @@ allprojects {
       url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
       credentials {
         username = "mapbox"
-        password = System.getenv("SDK_REGISTRY_TOKEN") ?: project.property("SDK_REGISTRY_TOKEN") as String
+        password = "sk.eyJ1IjoidG9icnVuIiwiYSI6ImNrbnNuNXB0YzA1eTUyeHBkYzRyN2V0ZGkifQ.xTXN75Mi3OiUtiiWV7Rk1w"
       }
       authentication {
         create<BasicAuthentication>("basic")
