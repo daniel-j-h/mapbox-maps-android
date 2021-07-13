@@ -70,7 +70,6 @@ dependencies {
   implementation(Dependencies.androidxMultidex)
   implementation(Dependencies.googleMaterialDesign)
   implementation(Dependencies.squareRetrofit)
-  implementation(Dependencies.androidxFragmentTest)
   implementation(Dependencies.squareRetrofitGsonConverter)
 
   // By default, the Maps SDK uses the Android Location Provider to obtain raw location updates.
@@ -90,6 +89,7 @@ dependencies {
   androidTestImplementation(Dependencies.androidxEspresso)
   androidTestImplementation(Dependencies.androidxUiAutomator)
   testImplementation(Dependencies.junit)
+  testImplementation(Dependencies.androidxFragmentTest)
 }
 
 project.apply {
