@@ -33,7 +33,7 @@ class MapboxLifecyclePluginImpl : MapboxLifecyclePlugin {
       )
     } else {
       mapView.context.registerComponentCallbacks(object : ComponentCallbacks {
-        override fun onConfigurationChanged(newConfig: Configuration?) {
+        override fun onConfigurationChanged(newConfig: Configuration) {
           // no need
         }
 
