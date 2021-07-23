@@ -57,6 +57,7 @@ object Dependencies {
   const val mockk = "io.mockk:mockk:${Versions.mockk}"
   const val robolectric = "org.robolectric:robolectric:${Versions.robolectric}"
   const val robolectricEgl = "org.khronos:opengl-api:${Versions.robolectricEgl}"
+  const val hamcrest = "org.hamcrest:hamcrest:${Versions.hamcrest}"
 }
 
 object Versions {
@@ -97,4 +98,5 @@ object Versions {
   const val mockk = "1.9.3"
   const val robolectric = "4.6.1"
   const val robolectricEgl = "gl1.1-android-2.1_r1"
+  const val hamcrest = "2.1"
 }
